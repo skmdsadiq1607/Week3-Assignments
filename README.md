@@ -7,13 +7,6 @@ It helps in understanding basic API concepts and asynchronous programming in Jav
 
 ---
 
-## File Included
-
-- `ProductAPI.js`  
-  Contains the main logic for handling product API data and related operations.
-
----
-
 ## Technologies Used
 
 - JavaScript
