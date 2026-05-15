@@ -1,0 +1,38 @@
+//api for product
+
+//read all products
+GET http://localhost:4000/product-api/products
+
+###
+
+//read a product by id
+GET http://localhost:4000/product-api/products/69b252b6f56a5faa202a9a98
+
+###
+//create new product
+POST http://localhost:4000/product-api/products
+Content-Type: application/json 
+
+{
+    "productId":1,
+    "productName":"Laptop",
+    "price":40000,
+     "brand":"HP"
+}
+###
+//update existing product
+PUT  http://localhost:4000/product-api/products/69abb4f8ed989750c8ea6a8c
+Content-Type: application/json
+
+{
+    "productId":2,
+    "productName":"Mouse",
+    "price":700,
+    "brand":"xyz"
+    
+}
+###
+
+//delete a product by id
+DELETE  http://localhost:4000/product-api/products/69abb6213e2eb05298bc6a4a
+###
